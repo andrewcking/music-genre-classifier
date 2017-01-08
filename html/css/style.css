@@ -1,0 +1,128 @@
+@import url(//fonts.googleapis.com/css?family=Raleway:100,300);
+body {
+  background-color: #00000F;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  color: rgba(255, 255, 255, 0.5);
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+#head {
+    position: fixed;
+    top: 0;
+    margin: 10px 30px;
+}
+a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+a:hover
+{
+     color:#00A0C6;
+     text-decoration:none;
+     cursor:pointer;
+}
+#upload {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+}
+#waves {
+    width: 100%;
+    height: 100%;
+}
+input[type=submit]{padding:5px 15px; background:#ccc; border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+progress#progressBar {
+    width: 100%;
+}
+p#status {
+    text-align: center;
+}
+#title {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  z-index: 100;
+  margin: 0;
+  padding: 0;
+  font-weight: 100;
+}
+
+#box {
+  width: 300px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  margin: 230px 51% 0;
+  -webkit-transform: translateX(-180px) translateY(-180px);
+  -moz-transform: translateX(-180px) translateY(-180px);
+  transform: translateX(-180px) translateY(-180px);
+}
+
+.wave {
+  position: absolute;
+}
+
+#top-waves {
+    top: -150px;
+}
+#bottom-waves {
+    bottom: -150px;
+}
+#right-waves {
+    right: -150px;
+}
+#left-waves {
+    left: -150px;
+}
+.button {
+    background-color: #113;
+    border: 3px #000 solid;
+    color: ddd;
+    padding: 10px 15px;
+    font-size: 10px;
+    font-weight: 100;
+}
+div#showbutton {
+    text-align: center;
+}
+#example-title, .face {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 300px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 100;
+}
+.face {
+    font-size: 60px;
+    top: -50px!important;
+}
+
+/*remove to restore box layout*/
+#box{
+  margin: 230px auto 0;
+}
+#bottom-waves {
+  width: 900px!important;
+  height: 600px!important;
+  margin: 0 -130px;
+}
+#right-waves, #left-waves, #top-waves {
+  display: none;
+}
+#example-title, .face  {
+  left: 180px;
+}
